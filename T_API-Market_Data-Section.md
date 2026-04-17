@@ -473,7 +473,8 @@ Retrieves an entity of AdminAlert type by its name.
 | `name` | required | string |
 
 **Response sample (200):**
-```json{
+```json
+{
 "id": 0,
 "name": "string",
 "timestamp": "2019-08-24T14:15:22Z"

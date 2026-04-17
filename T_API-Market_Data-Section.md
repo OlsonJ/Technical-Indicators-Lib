@@ -504,6 +504,7 @@ Retrieves an entity of AdminAlert type by its id.
   "name": "string",
   "timestamp": "2019-08-24T14:15:22Z"
 }
+
 ```
 
 ---
@@ -541,7 +542,8 @@ Retrieves all entities of AdminAlert type.
 **Endpoint:** `GET /adminAlert/list`
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "name": "string",
@@ -566,7 +568,8 @@ Retrieves entities of AdminAlert type filtered by an occurrence of a text in one
 | `l` | required | integer \<int32\> | Max number of entities |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "name": "string",
@@ -590,7 +593,8 @@ Retrieves an entity of ClearingHouse type by its name.
 | `name` | required | string |
 
 **Response sample (200):**
-```json{
+```json
+{
   "id": 0,
   "name": "string"
 }
@@ -611,7 +615,8 @@ Retrieves an entity of ClearingHouse type by its id.
 | `id` | required | integer \<int64\> |
 
 **Response sample (200):**
-```json{
+```json
+{
   "id": 0,
   "name": "string"
 }
@@ -632,7 +637,8 @@ Retrieves multiple entities of ClearingHouse type by its ids.
 | `ids` | required | Array of integers \<int64\> |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "name": "string"
@@ -649,7 +655,8 @@ Retrieves all entities of ClearingHouse type.
 **Endpoint:** `GET /clearingHouse/list`
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "name": "string"
@@ -673,7 +680,8 @@ Retrieves entities of ClearingHouse type filtered by an occurrence of a text in 
 | `l` | required | integer \<int32\> | Max number of entities |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "name": "string"
@@ -725,7 +733,8 @@ Retrieves multiple entities of Entitlement type by its ids.
 | `ids` | required | Array of integers \<int64\> |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "title": "string",
@@ -749,7 +758,8 @@ Retrieves all entities of Entitlement type.
 **Endpoint:** `GET /entitlement/list`
 
 **Response sample (200):**
-```json[
+```json
+[
 {
   "id": 0,
   "title": "string",

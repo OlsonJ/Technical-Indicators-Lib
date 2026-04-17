@@ -530,6 +530,7 @@ Retrieves multiple entities of AdminAlert type by its ids.
   "timestamp": "2019-08-24T14:15:22Z"
 }
 ]
+```
 
 ---
 
@@ -549,6 +550,7 @@ Retrieves all entities of AdminAlert type.
   "timestamp": "2019-08-24T14:15:22Z"
 }
 ]
+```
 
 ---
 
@@ -575,6 +577,7 @@ Retrieves entities of AdminAlert type filtered by an occurrence of a text in one
   "timestamp": "2019-08-24T14:15:22Z"
 }
 ]
+```
 
 ---
 
@@ -597,6 +600,7 @@ Retrieves an entity of ClearingHouse type by its name.
   "id": 0,
   "name": "string"
 }
+```
 
 ---
 
@@ -619,6 +623,7 @@ Retrieves an entity of ClearingHouse type by its id.
   "id": 0,
   "name": "string"
 }
+```
 
 ---
 
@@ -643,6 +648,7 @@ Retrieves multiple entities of ClearingHouse type by its ids.
   "name": "string"
 }
 ]
+```
 
 ---
 
@@ -661,6 +667,8 @@ Retrieves all entities of ClearingHouse type.
   "name": "string"
 }
 ]
+
+```
 
 ---
 
@@ -686,6 +694,7 @@ Retrieves entities of ClearingHouse type filtered by an occurrence of a text in 
   "name": "string"
 }
 ]
+```
 
 ---
 
@@ -715,6 +724,9 @@ Retrieves an entity of Entitlement type by its id.
   "durationUnits": "Lifetime",
   "autorenewal": true
 }
+
+```
+
 
 ---
 
@@ -747,6 +759,8 @@ Retrieves multiple entities of Entitlement type by its ids.
 }
 ]
 
+```
+
 ---
 
 ## entitlementList
@@ -772,6 +786,8 @@ Retrieves all entities of Entitlement type.
 }
 ]
 
+```
+
 ---
 
 ## orderStrategyTypeFind
@@ -795,6 +811,8 @@ Retrieves an entity of OrderStrategyType type by its name.
   "enabled": true
 }
 
+```
+
 ---
 
 ## orderStrategyTypeItem
@@ -817,6 +835,8 @@ Retrieves an entity of OrderStrategyType type by its id.
   "name": "string",
   "enabled": true
 }
+
+```
 
 ---
 
@@ -843,6 +863,8 @@ Retrieves multiple entities of OrderStrategyType type by its ids.
 }
 ]
 
+```
+
 ---
 
 ## orderStrategyTypeList
@@ -861,6 +883,8 @@ Retrieves all entities of OrderStrategyType type.
   "enabled": true
 }
 ]
+
+```
 
 ---
 
@@ -888,6 +912,8 @@ Retrieves entities of OrderStrategyType type filtered by an occurrence of a text
 }
 ]
 
+```
+
 ---
 
 ## propertyFind
@@ -913,6 +939,8 @@ Retrieves an entity of Property type by its name.
   "defaultValue": "string"
 }
 
+```
+
 ---
 
 ## propertyItem
@@ -937,6 +965,8 @@ Retrieves an entity of Property type by its id.
   "enumOptions": "string",
   "defaultValue": "string"
 }
+
+```
 
 ---
 
@@ -965,6 +995,8 @@ Retrieves multiple entities of Property type by its ids.
 }
 ]
 
+```
+
 ---
 
 ## propertyList
@@ -985,6 +1017,8 @@ Retrieves all entities of Property type.
   "defaultValue": "string"
 }
 ]
+
+```
 
 ---
 
@@ -1047,6 +1081,8 @@ Retrieves all entities of ContactInfo type related to User entity.
 }
 ]
 
+```
+
 ---
 
 ## contactInfoItem
@@ -1087,6 +1123,8 @@ Retrieves an entity of ContactInfo type by its id.
   "jointLastName": "string",
   "iraCustodianName": "string"
 }
+
+```
 
 ---
 
@@ -1165,6 +1203,9 @@ Creates a new entity of MarketDataSubscription.
   "renewalAccountId": 0
 }
 
+```
+---
+
 **Response sample (200):**
 ```json
 {
@@ -1183,6 +1224,8 @@ Creates a new entity of MarketDataSubscription.
   "renewalCreditCardId": 0,
   "renewalAccountId": 0
 }
+
+```
 
 ---
 
@@ -1281,6 +1324,8 @@ Updates an existing entity of MarketDataSubscription.
   "renewalAccountId": 0
 }
 
+```
+
 ---
 
 ## organizationFind
@@ -1302,6 +1347,8 @@ Retrieves an entity of Organization type by its name.
   "id": 0,
   "name": "string"
 }
+
+```
 
 ---
 
@@ -1336,6 +1383,8 @@ Retrieves an entity of Organization type by its id.
 }
 ]
 
+```
+
 ---
 
 ## secondMarketDataSubscriptionDependents
@@ -1360,6 +1409,8 @@ Retrieves all entities of SecondMarketDataSubscription type related to User enti
 ]
 
 > Also available: `GET /secondMarketDataSubscription/item`, `/items`, `/ldeps`, `/list`
+
+```
 
 ---
 
@@ -1391,6 +1442,8 @@ Creates a new entity of TradovateSubscription.
 
 > Also available: `GET /tradovateSubscription/deps`, `/item`, `/items`, `/ldeps`, `/list` and `POST /tradovateSubscription/update`
 
+```
+
 ---
 
 ## acceptTradingPermission
@@ -1405,6 +1458,10 @@ Called to accept a given trading permission granted by another party.
 {
 "tradingPermissionId": 0
 }
+
+```
+
+---
 
 **Response sample (200):**
 ```json
@@ -1423,6 +1480,8 @@ Called to accept a given trading permission granted by another party.
   "approvedById": 0
 }
 }
+
+```
 
 ---
 
@@ -1459,6 +1518,8 @@ Add a subscription to Market Data for a user.
   "userId": 0
 }
 
+```
+
 ---
 
 ## addSecondMarketDataSubscription
@@ -1478,6 +1539,8 @@ Add a second market data subscription for a user.
   "userId": 0
 }
 
+```
+
 ---
 
 ## addTradovateSubscription
@@ -1495,6 +1558,8 @@ Used to add a Tradovate Trader membership plan for a user.
   "accountId": 0,
   "userId": 0
 }
+
+```
 
 ---
 
@@ -1517,6 +1582,8 @@ Cancel all subscriptions, end plugin subscriptions, and revoke trading permissio
   "marketDataSubscriptions": true
 }
 
+```
+
 **Response sample (200):**
 ```json
 {
@@ -1525,6 +1592,8 @@ Cancel all subscriptions, end plugin subscriptions, and revoke trading permissio
   "userPluginIds": [0],
   "marketDataSubscriptionIds": [0]
 }
+
+```
 
 ---
 
@@ -1541,6 +1610,8 @@ Cancel a second market data subscription for a user.
 "secondMarketDataSubscriptionId": 0
 }
 
+```
+
 ---
 
 ## cancelSecondMarketDataSubscriptionRenewal
@@ -1555,6 +1626,8 @@ Cancel the auto-renewal for a second market data subscription for a user.
 {
 "secondMarketDataSubscriptionId": 0
 }
+
+```
 
 ---
 
@@ -1573,6 +1646,8 @@ Cancel a Tradovate Trader membership plan.
   "expire": true
 }
 
+```
+
 ---
 
 ## createEvaluationAccounts
@@ -1590,12 +1665,16 @@ Batch create up to 100 simulation accounts at once.
   "accounts": [{}]
 }
 
+```
+
 **Response sample (200):**
 ```json
 {
   "errorText": "string",
   "results": [{}]
 }
+
+```
 
 ---
 
@@ -1614,6 +1693,8 @@ Batch create up to 100 Organization users at once.
   "users": [{}]
 }
 
+```
+
 ---
 
 ## createTradingPermission
@@ -1629,6 +1710,8 @@ Create a trading permission. Intended for use by B2B Partners.
   "accountId": 0,
   "userId": 0
 }
+
+```
 
 ---
 
@@ -1658,6 +1741,8 @@ Retrieves an entity of User type by its name.
   "introducingPartnerId": 0
 }
 
+```
+
 ---
 
 ## getAccountTradingPermissions
@@ -1673,11 +1758,17 @@ Query the granted trading permissions associated with this account.
   "accountId": 0
 }
 
+```
+
+---
+
 **Response sample (200):**
 ```json
 {
   "tradingPermissions": [{}]
 }
+
+```
 
 ---
 
@@ -1696,12 +1787,18 @@ Query the current price of a second market data subscription for a user.
   "userId": 0
 }
 
+```
+
+---
+
 **Response sample (200):**
 ```json
 {
   "errorText": "string",
   "monthlyCost": 0.1
 }
+
+```
 
 ---
 
@@ -1731,6 +1828,10 @@ Used to modify account username and password.
   "currentPassword": "string"
 }
 
+```
+
+---
+
 **Response sample (200):**
 ```json
 {
@@ -1743,6 +1844,8 @@ Used to modify account username and password.
   "name": "string",
   "hasLive": true
 }
+
+```
 
 ---
 
@@ -1760,12 +1863,18 @@ Change account email address information.
   "email": "string"
 }
 
+```
+
+---
+
 **Response sample (200):**
 ```json
 {
   "errorText": "string",
   "status": "Active"
 }
+
+```
 
 ---
 
@@ -1783,6 +1892,8 @@ Change account password information.
   "password": "stringst",
   "currentPassword": "string"
 }
+
+```
 
 ---
 
@@ -1822,6 +1933,10 @@ Request to open a Demo account for a user. Typically used by B2B Partners.
 },
 "preTradeRisk": [{}]
 }
+
+```
+
+---
 **Response sample (200):**
 ```json
 {

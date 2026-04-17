@@ -690,7 +690,8 @@ Retrieves an entity of Entitlement type by its id.
 | `id` | required | integer \<int64\> |
 
 **Response sample (200):**
-```json{
+```json
+{
 "id": 0,
 "title": "string",
 "price": 0.1,

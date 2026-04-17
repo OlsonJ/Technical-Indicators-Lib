@@ -522,11 +522,12 @@ Retrieves multiple entities of AdminAlert type by its ids.
 | `ids` | required | Array of integers \<int64\> |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string",
-"timestamp": "2019-08-24T14:15:22Z"
+  "id": 0,
+  "name": "string",
+  "timestamp": "2019-08-24T14:15:22Z"
 }
 ]
 
@@ -542,9 +543,9 @@ Retrieves all entities of AdminAlert type.
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"name": "string",
-"timestamp": "2019-08-24T14:15:22Z"
+  "id": 0,
+  "name": "string",
+  "timestamp": "2019-08-24T14:15:22Z"
 }
 ]
 
@@ -567,9 +568,9 @@ Retrieves entities of AdminAlert type filtered by an occurrence of a text in one
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"name": "string",
-"timestamp": "2019-08-24T14:15:22Z"
+  "id": 0,
+  "name": "string",
+  "timestamp": "2019-08-24T14:15:22Z"
 }
 ]
 
@@ -590,8 +591,8 @@ Retrieves an entity of ClearingHouse type by its name.
 
 **Response sample (200):**
 ```json{
-"id": 0,
-"name": "string"
+  "id": 0,
+  "name": "string"
 }
 
 ---
@@ -611,8 +612,8 @@ Retrieves an entity of ClearingHouse type by its id.
 
 **Response sample (200):**
 ```json{
-"id": 0,
-"name": "string"
+  "id": 0,
+  "name": "string"
 }
 
 ---
@@ -633,8 +634,8 @@ Retrieves multiple entities of ClearingHouse type by its ids.
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"name": "string"
+  "id": 0,
+  "name": "string"
 }
 ]
 
@@ -650,8 +651,8 @@ Retrieves all entities of ClearingHouse type.
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"name": "string"
+  "id": 0,
+  "name": "string"
 }
 ]
 
@@ -674,8 +675,8 @@ Retrieves entities of ClearingHouse type filtered by an occurrence of a text in 
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"name": "string"
+  "id": 0,
+  "name": "string"
 }
 ]
 
@@ -697,15 +698,15 @@ Retrieves an entity of Entitlement type by its id.
 **Response sample (200):**
 ```json
 {
-"id": 0,
-"title": "string",
-"price": 0.1,
-"startDate": { "year": 0, "month": 0, "day": 0 },
-"discontinuedDate": { "year": 0, "month": 0, "day": 0 },
-"name": "string",
-"duration": 0,
-"durationUnits": "Lifetime",
-"autorenewal": true
+  "id": 0,
+  "title": "string",
+  "price": 0.1,
+  "startDate": { "year": 0, "month": 0, "day": 0 },
+  "discontinuedDate": { "year": 0, "month": 0, "day": 0 },
+  "name": "string",
+  "duration": 0,
+  "durationUnits": "Lifetime",
+  "autorenewal": true
 }
 
 ---
@@ -726,15 +727,15 @@ Retrieves multiple entities of Entitlement type by its ids.
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"title": "string",
-"price": 0.1,
-"startDate": {},
-"discontinuedDate": {},
-"name": "string",
-"duration": 0,
-"durationUnits": "Lifetime",
-"autorenewal": true
+  "id": 0,
+  "title": "string",
+  "price": 0.1,
+  "startDate": {},
+  "discontinuedDate": {},
+  "name": "string",
+  "duration": 0,
+  "durationUnits": "Lifetime",
+  "autorenewal": true
 }
 ]
 
@@ -750,15 +751,15 @@ Retrieves all entities of Entitlement type.
 **Response sample (200):**
 ```json[
 {
-"id": 0,
-"title": "string",
-"price": 0.1,
-"startDate": {},
-"discontinuedDate": {},
-"name": "string",
-"duration": 0,
-"durationUnits": "Lifetime",
-"autorenewal": true
+  "id": 0,
+  "title": "string",
+  "price": 0.1,
+  "startDate": {},
+  "discontinuedDate": {},
+  "name": "string",
+  "duration": 0,
+  "durationUnits": "Lifetime",
+  "autorenewal": true
 }
 ]
 
@@ -778,10 +779,11 @@ Retrieves an entity of OrderStrategyType type by its name.
 | `name` | required | string |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string",
-"enabled": true
+```json
+{
+  "id": 0,
+  "name": "string",
+  "enabled": true
 }
 
 ---
@@ -800,10 +802,11 @@ Retrieves an entity of OrderStrategyType type by its id.
 | `id` | required | integer \<int64\> |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string",
-"enabled": true
+```json
+{
+  "id": 0,
+  "name": "string",
+  "enabled": true
 }
 
 ---
@@ -822,11 +825,12 @@ Retrieves multiple entities of OrderStrategyType type by its ids.
 | `ids` | required | Array of integers \<int64\> |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string",
-"enabled": true
+  "id": 0,
+  "name": "string",
+  "enabled": true
 }
 ]
 
@@ -840,11 +844,12 @@ Retrieves all entities of OrderStrategyType type.
 **Endpoint:** `GET /orderStrategyType/list`
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string",
-"enabled": true
+  "id": 0,
+  "name": "string",
+  "enabled": true
 }
 ]
 
@@ -865,11 +870,12 @@ Retrieves entities of OrderStrategyType type filtered by an occurrence of a text
 | `l` | required | integer \<int32\> | Max number of entities |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string",
-"enabled": true
+  "id": 0,
+  "name": "string",
+  "enabled": true
 }
 ]
 
@@ -889,12 +895,13 @@ Retrieves an entity of Property type by its name.
 | `name` | required | string |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string",
-"propertyType": "Boolean",
-"enumOptions": "string",
-"defaultValue": "string"
+```json
+{
+  "id": 0,
+  "name": "string",
+  "propertyType": "Boolean",
+  "enumOptions": "string",
+  "defaultValue": "string"
 }
 
 ---
@@ -913,12 +920,13 @@ Retrieves an entity of Property type by its id.
 | `id` | required | integer \<int64\> |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string",
-"propertyType": "Boolean",
-"enumOptions": "string",
-"defaultValue": "string"
+```json
+{
+  "id": 0,
+  "name": "string",
+  "propertyType": "Boolean",
+  "enumOptions": "string",
+  "defaultValue": "string"
 }
 
 ---
@@ -937,13 +945,14 @@ Retrieves multiple entities of Property type by its ids.
 | `ids` | required | Array of integers \<int64\> |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string",
-"propertyType": "Boolean",
-"enumOptions": "string",
-"defaultValue": "string"
+  "id": 0,
+  "name": "string",
+  "propertyType": "Boolean",
+  "enumOptions": "string",
+  "defaultValue": "string"
 }
 ]
 
@@ -957,13 +966,14 @@ Retrieves all entities of Property type.
 **Endpoint:** `GET /property/list`
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string",
-"propertyType": "Boolean",
-"enumOptions": "string",
-"defaultValue": "string"
+  "id": 0,
+  "name": "string",
+  "propertyType": "Boolean",
+  "enumOptions": "string",
+  "defaultValue": "string"
 }
 ]
 
@@ -1001,29 +1011,30 @@ Retrieves all entities of ContactInfo type related to User entity.
 | `masterid` | required | integer \<int64\> | id of User entity |
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"userId": 0,
-"firstName": "string",
-"lastName": "string",
-"streetAddress1": "string",
-"streetAddress2": "string",
-"city": "string",
-"state": "string",
-"postCode": "string",
-"country": "st",
-"phone": "string",
-"mailingIsDifferent": true,
-"mailingStreetAddress1": "string",
-"mailingStreetAddress2": "string",
-"mailingCity": "string",
-"mailingState": "string",
-"mailingPostCode": "string",
-"mailingCountry": "st",
-"jointFirstName": "string",
-"jointLastName": "string",
-"iraCustodianName": "string"
+  "id": 0,
+  "userId": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "streetAddress1": "string",
+  "streetAddress2": "string",
+  "city": "string",
+  "state": "string",
+  "postCode": "string",
+  "country": "st",
+  "phone": "string",
+  "mailingIsDifferent": true,
+  "mailingStreetAddress1": "string",
+  "mailingStreetAddress2": "string",
+  "mailingCity": "string",
+  "mailingState": "string",
+  "mailingPostCode": "string",
+  "mailingCountry": "st",
+  "jointFirstName": "string",
+  "jointLastName": "string",
+  "iraCustodianName": "string"
 }
 ]
 
@@ -1043,28 +1054,29 @@ Retrieves an entity of ContactInfo type by its id.
 | `id` | required | integer \<int64\> |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"userId": 0,
-"firstName": "string",
-"lastName": "string",
-"streetAddress1": "string",
-"streetAddress2": "string",
-"city": "string",
-"state": "string",
-"postCode": "string",
-"country": "st",
-"phone": "string",
-"mailingIsDifferent": true,
-"mailingStreetAddress1": "string",
-"mailingStreetAddress2": "string",
-"mailingCity": "string",
-"mailingState": "string",
-"mailingPostCode": "string",
-"mailingCountry": "st",
-"jointFirstName": "string",
-"jointLastName": "string",
-"iraCustodianName": "string"
+```json
+{
+  "id": 0,
+  "userId": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "streetAddress1": "string",
+  "streetAddress2": "string",
+  "city": "string",
+  "state": "string",
+  "postCode": "string",
+  "country": "st",
+  "phone": "string",
+  "mailingIsDifferent": true,
+  "mailingStreetAddress1": "string",
+  "mailingStreetAddress2": "string",
+  "mailingCity": "string",
+  "mailingState": "string",
+  "mailingPostCode": "string",
+  "mailingCountry": "st",
+  "jointFirstName": "string",
+  "jointLastName": "string",
+  "iraCustodianName": "string"
 }
 
 ---
@@ -1126,39 +1138,41 @@ Creates a new entity of MarketDataSubscription.
 | `renewalAccountId` | optional | integer \<int64\> | > 0 |
 
 **Request sample:**
-```json{
-"id": 0,
-"userId": 0,
-"timestamp": "2019-08-24T14:15:22Z",
-"planPrice": 0.1,
-"creditCardTransactionId": 0,
-"cashBalanceLogId": 0,
-"creditCardId": 0,
-"accountId": 0,
-"marketDataSubscriptionPlanId": 0,
-"year": 2015,
-"month": 1,
-"expired": true,
-"renewalCreditCardId": 0,
-"renewalAccountId": 0
+```json
+{
+  "id": 0,
+  "userId": 0,
+  "timestamp": "2019-08-24T14:15:22Z",
+  "planPrice": 0.1,
+  "creditCardTransactionId": 0,
+  "cashBalanceLogId": 0,
+  "creditCardId": 0,
+  "accountId": 0,
+  "marketDataSubscriptionPlanId": 0,
+  "year": 2015,
+  "month": 1,
+  "expired": true,
+  "renewalCreditCardId": 0,
+  "renewalAccountId": 0
 }
 
 **Response sample (200):**
-```json{
-"id": 0,
-"userId": 0,
-"timestamp": "2019-08-24T14:15:22Z",
-"planPrice": 0.1,
-"creditCardTransactionId": 0,
-"cashBalanceLogId": 0,
-"creditCardId": 0,
-"accountId": 0,
-"marketDataSubscriptionPlanId": 0,
-"year": 2015,
-"month": 1,
-"expired": true,
-"renewalCreditCardId": 0,
-"renewalAccountId": 0
+```json
+{
+  "id": 0,
+  "userId": 0,
+  "timestamp": "2019-08-24T14:15:22Z",
+  "planPrice": 0.1,
+  "creditCardTransactionId": 0,
+  "cashBalanceLogId": 0,
+  "creditCardId": 0,
+  "accountId": 0,
+  "marketDataSubscriptionPlanId": 0,
+  "year": 2015,
+  "month": 1,
+  "expired": true,
+  "renewalCreditCardId": 0,
+  "renewalAccountId": 0
 }
 
 ---
@@ -1240,21 +1254,22 @@ Updates an existing entity of MarketDataSubscription.
 **Endpoint:** `POST /marketDataSubscription/update`
 
 **Request sample:**
-```json{
-"id": 0,
-"userId": 0,
-"timestamp": "2019-08-24T14:15:22Z",
-"planPrice": 0.1,
-"creditCardTransactionId": 0,
-"cashBalanceLogId": 0,
-"creditCardId": 0,
-"accountId": 0,
-"marketDataSubscriptionPlanId": 0,
-"year": 2015,
-"month": 1,
-"expired": true,
-"renewalCreditCardId": 0,
-"renewalAccountId": 0
+```json
+{
+  "id": 0,
+  "userId": 0,
+  "timestamp": "2019-08-24T14:15:22Z",
+  "planPrice": 0.1,
+  "creditCardTransactionId": 0,
+  "cashBalanceLogId": 0,
+  "creditCardId": 0,
+  "accountId": 0,
+  "marketDataSubscriptionPlanId": 0,
+  "year": 2015,
+  "month": 1,
+  "expired": true,
+  "renewalCreditCardId": 0,
+  "renewalAccountId": 0
 }
 
 ---
@@ -1273,9 +1288,10 @@ Retrieves an entity of Organization type by its name.
 | `name` | required | string |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string"
+```json
+{
+  "id": 0,
+  "name": "string"
 }
 
 ---
@@ -1303,10 +1319,11 @@ Retrieves an entity of Organization type by its id.
 - `GET /organization/suggest` — filtered by text (`t`, `l` query params)
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"name": "string"
+  "id": 0,
+  "name": "string"
 }
 ]
 
@@ -1320,15 +1337,16 @@ Retrieves all entities of SecondMarketDataSubscription type related to User enti
 **Endpoint:** `GET /secondMarketDataSubscription/deps`
 
 **Response sample (200):**
-```json[
+```json
+[
 {
-"id": 0,
-"userId": 0,
-"timestamp": "2019-08-24T14:15:22Z",
-"year": 2015,
-"month": 1,
-"cancelledRenewal": true,
-"cancellationTimestamp": "2019-08-24T14:15:22Z"
+  "id": 0,
+  "userId": 0,
+  "timestamp": "2019-08-24T14:15:22Z",
+  "year": 2015,
+  "month": 1,
+  "cancelledRenewal": true,
+  "cancellationTimestamp": "2019-08-24T14:15:22Z"
 }
 ]
 
@@ -1344,21 +1362,22 @@ Creates a new entity of TradovateSubscription.
 **Endpoint:** `POST /tradovateSubscription/create`
 
 **Request sample:**
-```json{
-"id": 0,
-"userId": 0,
-"timestamp": "2019-08-24T14:15:22Z",
-"planPrice": 0.1,
-"creditCardTransactionId": 0,
-"cashBalanceLogId": 0,
-"creditCardId": 0,
-"accountId": 0,
-"tradovateSubscriptionPlanId": 0,
-"startDate": { "year": 0, "month": 0, "day": 0 },
-"expirationDate": { "year": 0, "month": 0, "day": 0 },
-"paidAmount": 0.1,
-"cancelledRenewal": true,
-"cancelReason": "string"
+```json
+{
+  "id": 0,
+  "userId": 0,
+  "timestamp": "2019-08-24T14:15:22Z",
+  "planPrice": 0.1,
+  "creditCardTransactionId": 0,
+  "cashBalanceLogId": 0,
+  "creditCardId": 0,
+  "accountId": 0,
+  "tradovateSubscriptionPlanId": 0,
+  "startDate": { "year": 0, "month": 0, "day": 0 },
+  "expirationDate": { "year": 0, "month": 0, "day": 0 },
+  "paidAmount": 0.1,
+  "cancelledRenewal": true,
+  "cancelReason": "string"
 }
 
 > Also available: `GET /tradovateSubscription/deps`, `/item`, `/items`, `/ldeps`, `/list` and `POST /tradovateSubscription/update`
@@ -1373,24 +1392,26 @@ Called to accept a given trading permission granted by another party.
 **Endpoint:** `POST /user/accepttradingpermission`
 
 **Request sample:**
-```json{
+```json
+{
 "tradingPermissionId": 0
 }
 
 **Response sample (200):**
-```json{
-"errorText": "string",
-"tradingPermission": {
-"id": 0,
-"userId": 0,
-"accountId": 0,
-"accountHolderContact": "string",
-"accountHolderEmail": "string",
-"ctaContact": "string",
-"ctaEmail": "string",
-"status": "Accepted",
-"updated": "2019-08-24T14:15:22Z",
-"approvedById": 0
+```json
+{
+  "errorText": "string",
+  "tradingPermission": {
+  "id": 0,
+  "userId": 0,
+  "accountId": 0,
+  "accountHolderContact": "string",
+  "accountHolderEmail": "string",
+  "ctaContact": "string",
+  "ctaEmail": "string",
+  "status": "Accepted",
+  "updated": "2019-08-24T14:15:22Z",
+  "approvedById": 0
 }
 }
 
@@ -1404,7 +1425,8 @@ Used to setup a second market data subscription with active auto-renewal.
 **Endpoint:** `POST /user/activatesecondmarketdatasubscriptionrenewal`
 
 **Request sample:**
-```json{
+```json
+{
 "secondMarketDataSubscriptionId": 0
 }
 
@@ -1418,13 +1440,14 @@ Add a subscription to Market Data for a user.
 **Endpoint:** `POST /user/addmarketdatasubscription`
 
 **Request sample:**
-```json{
-"marketDataSubscriptionPlanIds": [0],
-"year": 2015,
-"month": 1,
-"creditCardId": 0,
-"accountId": 0,
-"userId": 0
+```json
+{
+  "marketDataSubscriptionPlanIds": [0],
+  "year": 2015,
+  "month": 1,
+  "creditCardId": 0,
+  "accountId": 0,
+  "userId": 0
 }
 
 ---
@@ -1437,12 +1460,13 @@ Add a second market data subscription for a user.
 **Endpoint:** `POST /user/addsecondmarketdatasubscription`
 
 **Request sample:**
-```json{
-"year": 2015,
-"month": 1,
-"creditCardId": 0,
-"accountId": 0,
-"userId": 0
+```json
+{
+  "year": 2015,
+  "month": 1,
+  "creditCardId": 0,
+  "accountId": 0,
+  "userId": 0
 }
 
 ---
@@ -1455,11 +1479,12 @@ Used to add a Tradovate Trader membership plan for a user.
 **Endpoint:** `POST /user/addtradovatesubscription`
 
 **Request sample:**
-```json{
-"tradovateSubscriptionPlanId": 0,
-"creditCardId": 0,
-"accountId": 0,
-"userId": 0
+```json
+{
+  "tradovateSubscriptionPlanId": 0,
+  "creditCardId": 0,
+  "accountId": 0,
+  "userId": 0
 }
 
 ---
@@ -1474,20 +1499,22 @@ Cancel all subscriptions, end plugin subscriptions, and revoke trading permissio
 **Endpoint:** `POST /user/canceleverything`
 
 **Request sample:**
-```json{
-"userIds": [0],
-"tradovateSubscriptions": true,
-"tradingPermissions": true,
-"userPlugins": true,
-"marketDataSubscriptions": true
+```json
+{
+  "userIds": [0],
+  "tradovateSubscriptions": true,
+  "tradingPermissions": true,
+  "userPlugins": true,
+  "marketDataSubscriptions": true
 }
 
 **Response sample (200):**
-```json{
-"tradovateSubscriptionIds": [0],
-"tradingPermissionIds": [0],
-"userPluginIds": [0],
-"marketDataSubscriptionIds": [0]
+```json
+{
+  "tradovateSubscriptionIds": [0],
+  "tradingPermissionIds": [0],
+  "userPluginIds": [0],
+  "marketDataSubscriptionIds": [0]
 }
 
 ---
@@ -1500,7 +1527,8 @@ Cancel a second market data subscription for a user.
 **Endpoint:** `POST /user/cancelsecondmarketdatasubscription`
 
 **Request sample:**
-```json{
+```json
+{
 "secondMarketDataSubscriptionId": 0
 }
 
@@ -1514,7 +1542,8 @@ Cancel the auto-renewal for a second market data subscription for a user.
 **Endpoint:** `POST /user/cancelsecondmarketdatasubscriptionrenewal`
 
 **Request sample:**
-```json{
+```json
+{
 "secondMarketDataSubscriptionId": 0
 }
 
@@ -1528,10 +1557,11 @@ Cancel a Tradovate Trader membership plan.
 **Endpoint:** `POST /user/canceltradovatesubscription`
 
 **Request sample:**
-```json{
-"tradovateSubscriptionId": 0,
-"cancelReason": "string",
-"expire": true
+```json
+{
+  "tradovateSubscriptionId": 0,
+  "cancelReason": "string",
+  "expire": true
 }
 
 ---
@@ -1546,14 +1576,16 @@ Batch create up to 100 simulation accounts at once.
 **Endpoint:** `POST /user/createevaluationaccounts`
 
 **Request sample:**
-```json{
-"accounts": [{}]
+```json
+{
+  "accounts": [{}]
 }
 
 **Response sample (200):**
-```json{
-"errorText": "string",
-"results": [{}]
+```json
+{
+  "errorText": "string",
+  "results": [{}]
 }
 
 ---
@@ -1568,8 +1600,9 @@ Batch create up to 100 Organization users at once.
 **Endpoint:** `POST /user/createevaluationusers`
 
 **Request sample:**
-```json{
-"users": [{}]
+```json
+{
+  "users": [{}]
 }
 
 ---
@@ -1582,9 +1615,10 @@ Create a trading permission. Intended for use by B2B Partners.
 **Endpoint:** `POST /user/createtradingpermission`
 
 **Request sample:**
-```json{
-"accountId": 0,
-"userId": 0
+```json
+{
+  "accountId": 0,
+  "userId": 0
 }
 
 ---
@@ -1603,15 +1637,16 @@ Retrieves an entity of User type by its name.
 | `name` | required | string |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string",
-"timestamp": "2019-08-24T14:15:22Z",
-"email": "string",
-"status": "Active",
-"professional": true,
-"organizationId": 0,
-"introducingPartnerId": 0
+```json
+{
+  "id": 0,
+  "name": "string",
+  "timestamp": "2019-08-24T14:15:22Z",
+  "email": "string",
+  "status": "Active",
+  "professional": true,
+  "organizationId": 0,
+  "introducingPartnerId": 0
 }
 
 ---
@@ -1624,13 +1659,15 @@ Query the granted trading permissions associated with this account.
 **Endpoint:** `POST /user/getaccounttradingpermissions`
 
 **Request sample:**
-```json{
-"accountId": 0
+```json
+{
+  "accountId": 0
 }
 
 **Response sample (200):**
-```json{
-"tradingPermissions": [{}]
+```json
+{
+  "tradingPermissions": [{}]
 }
 
 ---
@@ -1643,16 +1680,18 @@ Query the current price of a second market data subscription for a user.
 **Endpoint:** `POST /user/getsecondmarketdatasubscriptioncost`
 
 **Request sample:**
-```json{
-"year": 2015,
-"month": 1,
-"userId": 0
+```json
+{
+  "year": 2015,
+  "month": 1,
+  "userId": 0
 }
 
 **Response sample (200):**
-```json{
-"errorText": "string",
-"monthlyCost": 0.1
+```json
+{
+  "errorText": "string",
+  "monthlyCost": 0.1
 }
 
 ---
@@ -1675,23 +1714,25 @@ Used to modify account username and password.
 **Endpoint:** `POST /user/modifycredentials`
 
 **Request sample:**
-```json{
-"userId": 0,
-"name": "string",
-"password": "stringst",
-"currentPassword": "string"
+```json
+{
+  "userId": 0,
+  "name": "string",
+  "password": "stringst",
+  "currentPassword": "string"
 }
 
 **Response sample (200):**
-```json{
-"errorText": "string",
-"accessToken": "string",
-"expirationTime": "2019-08-24T14:15:22Z",
-"passwordExpirationTime": "2019-08-24T14:15:22Z",
-"userStatus": "Active",
-"userId": 0,
-"name": "string",
-"hasLive": true
+```json
+{
+  "errorText": "string",
+  "accessToken": "string",
+  "expirationTime": "2019-08-24T14:15:22Z",
+  "passwordExpirationTime": "2019-08-24T14:15:22Z",
+  "userStatus": "Active",
+  "userId": 0,
+  "name": "string",
+  "hasLive": true
 }
 
 ---
@@ -1704,15 +1745,17 @@ Change account email address information.
 **Endpoint:** `POST /user/modifyemailaddress`
 
 **Request sample:**
-```json{
-"userId": 0,
-"email": "string"
+```json
+{
+  "userId": 0,
+  "email": "string"
 }
 
 **Response sample (200):**
-```json{
-"errorText": "string",
-"status": "Active"
+```json
+{
+  "errorText": "string",
+  "status": "Active"
 }
 
 ---
@@ -1725,10 +1768,11 @@ Change account password information.
 **Endpoint:** `POST /user/modifypassword`
 
 **Request sample:**
-```json{
-"userId": 0,
-"password": "stringst",
-"currentPassword": "string"
+```json
+{
+  "userId": 0,
+  "password": "stringst",
+  "currentPassword": "string"
 }
 
 ---
@@ -1743,28 +1787,29 @@ Request to open a Demo account for a user. Typically used by B2B Partners.
 **Endpoint:** `POST /user/opendemoaccount`
 
 **Request sample:**
-```json{
-"templateAccountId": 0,
-"name": "string",
-"initialBalance": 0.1,
-"defaultAutoLiq": {
-"marginPercentageAlert": 0.1,
-"dailyLossPercentageAlert": 0.1,
-"dailyLossAlert": 0.1,
-"marginPercentageLiqOnly": 0.1,
-"dailyLossPercentageLiqOnly": 0.1,
-"dailyLossLiqOnly": 0.1,
-"marginPercentageAutoLiq": 0.1,
-"dailyLossPercentageAutoLiq": 0.1,
-"dailyLossAutoLiq": 0.1,
-"weeklyLossAutoLiq": 0.1,
-"flattenTimestamp": "2019-08-24T14:15:22Z",
-"trailingMaxDrawdown": 0.1,
-"trailingMaxDrawdownLimit": 0.1,
-"trailingMaxDrawdownMode": "EOD",
-"dailyProfitAutoLiq": 0.1,
-"weeklyProfitAutoLiq": 0.1,
-"doNotUnlock": true
+```json
+{
+  "templateAccountId": 0,
+  "name": "string",
+  "initialBalance": 0.1,
+  "defaultAutoLiq": {
+  "marginPercentageAlert": 0.1,
+  "dailyLossPercentageAlert": 0.1,
+  "dailyLossAlert": 0.1,
+  "marginPercentageLiqOnly": 0.1,
+  "dailyLossPercentageLiqOnly": 0.1,
+  "dailyLossLiqOnly": 0.1,
+  "marginPercentageAutoLiq": 0.1,
+  "dailyLossPercentageAutoLiq": 0.1,
+  "dailyLossAutoLiq": 0.1,
+  "weeklyLossAutoLiq": 0.1,
+  "flattenTimestamp": "2019-08-24T14:15:22Z",
+  "trailingMaxDrawdown": 0.1,
+  "trailingMaxDrawdownLimit": 0.1,
+  "trailingMaxDrawdownMode": "EOD",
+  "dailyProfitAutoLiq": 0.1,
+  "weeklyProfitAutoLiq": 0.1,
+  "doNotUnlock": true
 },
 "preTradeRisk": [{}]
 }

@@ -404,6 +404,7 @@ Using a WebSocket connected to the Tradovate Market Replay URL, we can start a M
 
 **Example:**
 ```js
+{
 const URL = 'wss://replay.tradovateapi.com/v1/websocket'
 
 const myMarketReplaySocket = new WebSocket(URL)
@@ -475,10 +476,11 @@ Retrieves an entity of AdminAlert type by its name.
 **Response sample (200):**
 ```json
 {
-"id": 0,
-"name": "string",
-"timestamp": "2019-08-24T14:15:22Z"
+  "id": 0,
+  "name": "string",
+  "timestamp": "2019-08-24T14:15:22Z"
 }
+```
 
 ---
 
@@ -493,14 +495,16 @@ Retrieves an entity of AdminAlert type by its id.
 
 | Parameter | Required | Type |
 |-----------|----------|------|
-| `id` | required | integer \<int64\> |
+| `id` | required | integer <int64> |
 
 **Response sample (200):**
-```json{
-"id": 0,
-"name": "string",
-"timestamp": "2019-08-24T14:15:22Z"
+```json
+{
+  "id": 0,
+  "name": "string",
+  "timestamp": "2019-08-24T14:15:22Z"
 }
+```
 
 ---
 

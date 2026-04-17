@@ -1,6 +1,6 @@
 
 
-#Market Data
+# Market Data
 
 ### This Section covers market data capabilities utilizing the tradorvate api. This is public information on their website: https://api.tradovate.com/
 

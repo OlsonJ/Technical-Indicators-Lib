@@ -2,8 +2,8 @@
 
 ### Repo for the Development of HFTs
 
-Deprecated below this line...
-Library for technical indicator development targeted toward equity index futures
+- Deprecated below this line...
+- Library for technical indicator development targeted toward equity index futures
 
 ---
 Currently the scope is within webull, NT, and IBKR

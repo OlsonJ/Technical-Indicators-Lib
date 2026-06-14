@@ -1,5 +1,8 @@
 ## Technical-Indicators-Lib#
 
+### Repo for the Development of HFTs
+
+Deprecated below this line...
 Library for technical indicator development targeted toward equity index futures
 
 ---
